@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite' // Tambahkan ini
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // Tambahkan ini
+    tailwindcss(),
   ],
-  base: '/castonymous.github.io/', // Ganti dengan nama repository GitHub kamu
+  base: '/', // KHUSUS castonymous.github.io pakai '/'
 })
